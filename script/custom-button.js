@@ -57,6 +57,9 @@ class CustomButton extends HTMLElement {
 
 customElements.define('custom-button', CustomButton);
 
-function handleClick() {
-    alert('Botón clickeado!');
+function handleClick(targetId) {
+    const section = document.getElementById(targetId);
+    if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+    }
 }
