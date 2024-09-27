@@ -1,6 +1,6 @@
 # MIAM Landing Page
 
-![MIAM Landing Page](https://iot-socialtech.github.io/miam-landing-page)
+![MIAM Landing Page](assets/images/image.png)
 
 ## Descripción
 
