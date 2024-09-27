@@ -560,6 +560,14 @@ body {
         width: 60%;
         height: auto;
     }
+
+    .plans{
+        flex-direction: column;
+    }
+
+    .contact-info{
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 768px) {
