@@ -1,6 +1,6 @@
 # MIAM Landing Page
 
-![MIAM Landing Page](https://iot-socialtech.github.io/miam-landing-page/images/screenshot.png)
+![MIAM Landing Page](https://iot-socialtech.github.io/miam-landing-page)
 
 ## Descripción
 
@@ -58,7 +58,7 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](./LICENS
 
 ## Contacto
 
-Si tienes preguntas, sugerencias o deseas colaborar con nosotros, no dudes en contactarnos a través de [nuestro formulario de contacto](https://iot-socialtech.github.io/miam-landing-page/#contacto) o envía un correo a info@miam-iot.com.
+Si tienes preguntas, sugerencias o deseas colaborar con nosotros, no dudes en contactarnos a través de [nuestro formulario de contacto](https://iot-socialtech.github.io/miam-landing-page/#contact) o envía un correo a info@miam-iot.com.
 
 ---
 
