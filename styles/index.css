@@ -744,6 +744,10 @@ body {
         padding: 80px 7rem;
     }
 
+    .hero-container{
+        height: 100%;
+    }
+
     .hero-text-main {
         font-size: 2rem;
     }
