@@ -745,7 +745,17 @@ body {
     }
 
     .hero-container{
+        height: fit-content;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero{
         height: 100%;
+        width: 100%;
     }
 
     .hero-text-main {
