@@ -21,26 +21,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height:calc(100vh - 90px);
     width: 100%;
     background-color: #FFFFFF;
-    padding: 250px 0px;
+    padding: 80px 20rem;
 }
 
 .hero{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
     height: 60%;
 }
 
 .hero-text{
-    width: 50%;
+    display: flex;
+    flex-direction: column;
     text-align: left;
     margin: 0;
-    padding: 0;
-    width: 50%;
+    padding: 0 200px 0 0;
+    width: 70%;
 }
 
 .hero-text-small {
@@ -68,7 +68,8 @@ body {
 }
 
 .hero-image{
-    width: 50%;
+    display: flex;
+    flex: 1;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -76,8 +77,72 @@ body {
 }
 
 .hero-image img{
-    width: 50%;
+    width: 80%;
     height: auto;
+}
+
+.system-container{
+    display: flex;
+    padding: 80px 0;
+    background-color: #F2F7FC;
+}
+
+.features-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+}
+
+.section-title-system {
+    font-size: 2rem;
+    color: #5A9BD4;
+    font-weight: 600;
+    text-align: center;
+}
+
+.feature-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.feature-item {
+    max-width: 500px;
+    margin: 0 20px;
+}
+
+.feature-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 auto 20px auto; /* Centra el icono y agrega espacio inferior */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave para el círculo */
+}
+
+.feature-icon {
+    width: 100%;
+    height: auto;
+}
+
+.feature-title {
+    font-size: 1.25rem;
+    color: #4F4F4F;
+    margin-bottom: 15px;
+}
+
+.feature-description {
+    color: #4F4F4F;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .section-title-benefits{
@@ -106,8 +171,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
 }
 
 .benefits-text {
@@ -141,6 +206,7 @@ body {
     padding: 15px;
     color:  #4F4F4F;
     transition: all 0.3s;
+    width: 18rem;
 }
 
 .colored{
@@ -175,11 +241,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: auto;
     width: 100%;
     background-color: #F2F7FC;
     color: #4F4F4F;
-    padding: 150px 0px;
+    padding: 80px 0px;
+}
+
+.section-title{
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .plans{
@@ -187,8 +258,8 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 60%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
 }
 
 .plans-cards{
@@ -223,7 +294,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 100%;
     height: 60%;
 }
 
@@ -255,6 +326,7 @@ body {
     padding: 20px 30px;
     box-shadow: none;
     border-bottom: none;
+    position: sticky;
 }
 
 
@@ -308,77 +380,30 @@ body {
     border-color: #6bc57a;
 }
 
-.features-section {
-    padding: 200px 0;
-    background-color: #F2F7FC;
-}
 
-.section-title-system {
-    font-size: 2rem;
-    padding-left: 100px;
-    color: #5A9BD4;
-    margin-bottom: 80px;
-    margin-top: -100px;
-    font-weight: 600;
-    line-height: 45.99px;
-    font-size: 38px;
-}
+/* Estilo para la sección de testimonios */
 
-.feature-row {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-bottom: 40px;
-}
-
-.feature-item {
-    max-width: 500px;
-    margin: 0 20px;
-}
-
-.feature-icon-wrapper {
+.testimonials-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
-    border-radius: 50%;
-    margin: 0 auto 20px auto; /* Centra el icono y agrega espacio inferior */
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave para el círculo */
-}
-
-.feature-icon {
+    height: 100%;
     width: 100%;
-    height: auto;
+    background-color: white;
+    padding: 80px 0px;
 }
 
-.feature-title {
-    font-size: 1.25rem;
-    color: #4F4F4F;
-    margin-bottom: 15px;
-}
-
-.feature-description {
-    color: #4F4F4F;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    text-align: justify;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-/* Estilo para la sección de testimonios */
-.testimonials-section {
-    background-color: #ffffff;
-    padding: 100px 0;
+.testimonials-container .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .section-title-testimonials {
     font-size: 2rem;
     font-weight: 600;
     color: #5A9BD4;
-    padding-bottom: 70px;
+    text-align: center;
 }
 
 .carousel-inner {
@@ -396,16 +421,26 @@ body {
     text-align: left;
 }
 
+.testimonial{
+    width: 100%;
+    display: flex;
+    padding: 0;
+    height: auto;
+    align-items: stretch;
+}
+
 .testimonial-image {
-    width: 270px;
-    height: 270px;
-    margin-right: 20px;
+    max-width: 40%;
+    max-height: 100%;
     object-fit: cover;
 }
 
 .testimonial-content {
+    display: flex;
+    flex-direction: column;
     padding: 20px 30px;
     max-width: 600px;
+    justify-content: center;
 }
 
 .testimonial h4 {
@@ -439,30 +474,21 @@ body {
     width: 50px;
 }
 
-.team-section {
+.team-container {
     background-color: #F2F7FC;
     padding: 80px 0;
+}
+
+.team-text,
+.team-text p{
+    color: #5A9BD4;
 }
 
 .team-intro {
     margin-bottom: 30px;
 }
 
-.team-intro h2 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: #5A9BD4;
-    margin-bottom: 10px;
-}
-
-.team-subtitle {
-    font-size: 1.25rem;
-    font-weight: 400;
-    color: #5A9BD4;
-    margin-bottom: 20px;
-}
-
-.team-intro p {
+.team-intro .description {
     font-size: 1rem;
     color: #4F4F4F;
     line-height: 1.6;
@@ -540,11 +566,103 @@ body {
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 1800px) {
+    .hero-container, 
+    .system-container,
+    .benefits-container, 
+    .plans-container, 
+    .testimonials-container, 
+    .team-container,
+    .contact-container {
+        padding: 80px 18rem;
+    }
+    .hero-text{
+        padding: 0 40px 0 0;
+    }
+    .text{
+        font-size: 1rem;
+    }
+
+    .feature-description {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1500px) {
+    .hero-container, 
+    .system-container,
+    .benefits-container, 
+    .plans-container, 
+    .testimonials-container, 
+    .team-container,
+    .contact-container  {
+        padding: 80px 15rem;
+    }
+    .hero-text{
+        padding: 0 20px 0 0;
+    }
+    .hero-text-main {
+        font-size: 3.2rem;
+    }
+    .hero-text-small{
+        font-size: 1.5rem;
+    }
+    .hero-image img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 1300px) {
+    .hero-container, 
+    .system-container,
+    .benefits-container, 
+    .plans-container, 
+    .testimonials-container, 
+    .team-container,
+    .contact-container  {
+        padding: 80px 12rem;
+    }
+    .hero-text{
+        padding: 0 5px 0 0;
+    }
+    .hero-text-main {
+        font-size: 2.5rem;
+    }
+    .hero-text-small{
+        font-size: 1.2rem;
+    }
+
+    .plans{
+        flex-direction: column;
+    }
+
+    .plans-text{
+        width: 80%;
+    }
+
+    .contact-info{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1000px) {
     .hero {
         flex-direction: column;
         text-align: center;
         padding: 20px;
+    }
+
+    .hero-container, 
+    .system-container,
+    .benefits-container, 
+    .plans-container, 
+    .testimonials-container, 
+    .team-container,
+    .contact-container  {
+        padding: 80px 10rem;
     }
 
     .hero-text {
@@ -561,30 +679,102 @@ body {
         height: auto;
     }
 
-    .plans{
-        flex-direction: column;
-    }
-
     .contact-info{
         flex-direction: column;
     }
+    
+    .benefits-text {
+        width: 100%;
+    }
+
+    .benefits-cards {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .benefits-cards .card {
+        width: 60%;
+    }
+    
+    .plans-cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .feature-row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-item{
+        width: 60%;
+    }
+
+    .hero-image img {
+        width: auto;
+        height: 80%;
+        padding: 0 10px ;
+    }
+
+    .testimonial{
+        flex-direction: column;
+    }
+
+    .testimonial-image {
+        max-width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+    }
+
+    .team-intro .description{
+        margin: 0;
+    }
 }
 
+
 @media (max-width: 768px) {
+
+    .hero-container, 
+    .system-container,
+    .benefits-container, 
+    .plans-container, 
+    .testimonials-container, 
+    .team-container,
+    .contact-container  {
+        padding: 80px 7rem;
+    }
+
     .hero-text-main {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
-    .plans-container {
-        padding: 30px 0px;
+    .hero-text-small{
+        font-size: 1rem;
     }
 
+    .benefits-cards{
+        width: 100%;
+        align-items: center;
+    }
+
+    .benefits-cards .card {
+        width: 90%;
+    }
+
+    .plans-text{
+        width: 80%;
+    }
     .feature-title {
         font-size: 1.1rem;
     }
 
     .feature-description {
         font-size: 0.85rem;
+    }
+
+    .feature-item{
+        width: 80%;
     }
 
     .testimonial p {
@@ -615,8 +805,11 @@ body {
         height: 60px;
     }
 
-    .member-info {
-        text-align: left;
+    .team-members{
+        width: 70%;
+        align-self: center;
+        justify-self: center;
+        margin: auto;
     }
 
     .footer .text-center {
@@ -641,6 +834,17 @@ body {
 }
 
 @media (max-width: 576px) {
+
+    .hero-container, 
+    .system-container,
+    .benefits-container, 
+    .plans-container, 
+    .testimonials-container, 
+    .team-container,
+    .contact-container  {
+        padding: 80px 3rem;
+    }
+
     .btn-login {
         font-size: 0.7rem;
         padding: 5px 10px;
@@ -651,16 +855,12 @@ body {
         margin-right: 10px;
     }
 
-    .hero-container {
-        padding: 100px 0px;
-    }
-
     .feature-item {
         max-width: 90%;
         margin: 10px 0;
     }
     .hero-text-main {
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
 
     .testimonial-image {
