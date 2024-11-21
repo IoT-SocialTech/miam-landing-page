@@ -564,6 +564,53 @@ body {
     border-radius: 50%;
 }
 
+.About-product-container{
+    display: inline;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #F2F7FC;
+}
+
+.About-team-container{
+    display: inline;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #ffffff;
+}
+
+.About-product-container p, .About-team-container p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.video-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #F2F7FC;
+    padding: 20px 0;
+}
+
+.video-team-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 20px 0;
+}
+
+.video-container video, .video-team-container video {
+    max-width: 60%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 
 @media (max-width: 1800px) {
     .hero-container, 
